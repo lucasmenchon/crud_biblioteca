@@ -21,7 +21,7 @@ namespace crud_biblioteca.Controllers
         // GET: Livros
         public async Task<IActionResult> Index()
         {
-              return _context.Livros != null ? 
+              return _context.Livros != null ?
                           View(await _context.Livros.ToListAsync()) :
                           Problem("Entity set 'Context.Livros'  is null.");
         }

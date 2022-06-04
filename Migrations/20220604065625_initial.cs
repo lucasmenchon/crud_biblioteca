@@ -4,7 +4,7 @@
 
 namespace crud_biblioteca.Migrations
 {
-    public partial class Initial : Migration
+    public partial class initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,8 +14,8 @@ namespace crud_biblioteca.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Celular = table.Column<int>(type: "int", nullable: false),
                     Telefone = table.Column<int>(type: "int", nullable: false),
                     Cpf = table.Column<int>(type: "int", nullable: false)
@@ -31,13 +31,13 @@ namespace crud_biblioteca.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Usuario = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Usuario = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Senha = table.Column<int>(type: "int", nullable: false),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Celular = table.Column<int>(type: "int", nullable: false),
-                    Cargo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DataAdmissao = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Cargo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    DataAdmissao = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Cpf = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -51,17 +51,17 @@ namespace crud_biblioteca.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Titulo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Codigo = table.Column<int>(type: "int", nullable: false),
+                    Titulo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Codigo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Volume = table.Column<int>(type: "int", nullable: false),
-                    Idioma = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Genero = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DataPublicacao = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Edicao = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DataRegistro = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Autor = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Editora = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Descricao = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Idioma = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Genero = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    DataPublicacao = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Edicao = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    DataRegistro = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Autor = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Editora = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Descricao = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Quantidade = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -75,9 +75,9 @@ namespace crud_biblioteca.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    DataReserva = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DataEntrega = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    NomeCliente = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DataReserva = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    DataEntrega = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    NomeCliente = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CodigoLivro = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

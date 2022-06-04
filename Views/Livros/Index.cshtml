@@ -1,101 +1,79 @@
 ﻿@model IEnumerable<crud_biblioteca.Models.Livro>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Cadastro de Livro";
 }
 
-<h1>Index</h1>
+<h1>Livros</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-sm btn-secondary">Cadastro</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Titulo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Codigo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Volume)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Idioma)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Genero)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataPublicacao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Edicao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataRegistro)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Autor)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Editora)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descricao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Quantidade)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Titulo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Codigo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Volume)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Idioma)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Genero)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataPublicacao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Edicao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataRegistro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Autor)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Editora)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Quantidade)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+<div class="container">
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+
+                    <th>
+                        <div class="col">
+                            @Html.DisplayNameFor(model => model.Titulo)
+                        </div>
+                    </th>
+                    <th>
+                        <div class="col">
+                            @Html.DisplayNameFor(model => model.Codigo)
+                        </div>
+                    </th>
+                    <th>
+                        <div class="col">
+                            @Html.DisplayNameFor(model => model.Quantidade)
+                        </div>
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    //adicionando modelItem e item.atributoModel exemplo item.Titulo
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Titulo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Codigo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantidade)
+                        </td>
+
+                        <td>
+
+                            <div class="row justify-content-md-center">
+
+                                <div class="col col-sm-1 m-1">
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">Editar</a>
+                                </div>
+
+                                <div class="col col-sm-2 m-1">
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">Detalhes</a>
+                                </div>
+
+                                <div class="col col-sm-1 m-1">
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Deletar</a>
+                                </div>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
