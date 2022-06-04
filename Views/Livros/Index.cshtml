@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<crud_biblioteca.Models.Livro>
 
 @{
-    ViewData["Title"] = "Cadastro de Livro";
+    ViewData["Title"] = "Consulta de Livro";
 }
 
 <h1>Livros</h1>
@@ -10,7 +10,7 @@
     <a asp-action="Create" class="btn btn-sm btn-secondary">Cadastro</a>
 </p>
 
-<div class="container">
+
     <div class="row">
         <table class="table">
             <thead>
@@ -53,17 +53,17 @@
 
                         <td>
 
-                            <div class="row justify-content-md-center">
+                            <div class="row">
 
-                                <div class="col col-sm-1 m-1">
+                                <div class="col-sm-2 m-1">
                                     <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">Editar</a>
                                 </div>
 
-                                <div class="col col-sm-2 m-1">
+                                <div class="col-sm-2 m-1">
                                     <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">Detalhes</a>
                                 </div>
 
-                                <div class="col col-sm-1 m-1">
+                                <div class="col-sm-2 m-1">
                                     <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Deletar</a>
                                 </div>
 
@@ -76,4 +76,3 @@
             </tbody>
         </table>
     </div>
-</div>

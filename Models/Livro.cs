@@ -30,7 +30,7 @@ namespace crud_biblioteca.Models
         [Display(Name = "Edição")]
         public string? Edicao { get; set; }
 
-        [Display(Name = "Data do Registro")]
+        [Display(Name = "Data de Registro")]
         [DataType(DataType.Date)]
         public string? DataRegistro { get; set; }
 
