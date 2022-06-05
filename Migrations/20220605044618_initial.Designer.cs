@@ -11,7 +11,7 @@ using crud_biblioteca.Models;
 namespace crud_biblioteca.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220605040731_initial")]
+    [Migration("20220605044618_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,8 +35,9 @@ namespace crud_biblioteca.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(1)");
 
-                    b.Property<int>("Celular")
-                        .HasColumnType("int");
+                    b.Property<string>("Celular")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
 
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
@@ -68,8 +69,9 @@ namespace crud_biblioteca.Migrations
                     b.Property<string>("Cargo")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Celular")
-                        .HasColumnType("int");
+                    b.Property<string>("Celular")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
 
                     b.Property<string>("DataAdmissao")
                         .HasColumnType("nvarchar(max)");

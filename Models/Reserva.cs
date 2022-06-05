@@ -16,7 +16,7 @@ namespace crud_biblioteca.Models
         public string? DataEntrega { get; set; }
 
         [Display(Name = "Cliente")]
-        public string? NomeCliente { get; set; }
+        public string? NomeCliente { get; set; } 
 
         [Display(Name = "Código do Livro")]
         public string? CodigoLivro { get; set; }

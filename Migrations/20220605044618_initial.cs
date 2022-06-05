@@ -16,7 +16,7 @@ namespace crud_biblioteca.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Celular = table.Column<int>(type: "int", nullable: false),
+                    Celular = table.Column<string>(type: "nvarchar(1)", nullable: false),
                     Telefone = table.Column<string>(type: "nvarchar(1)", nullable: false),
                     CPF = table.Column<string>(type: "nvarchar(1)", nullable: false)
                 },
@@ -35,7 +35,7 @@ namespace crud_biblioteca.Migrations
                     Senha = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Celular = table.Column<int>(type: "int", nullable: false),
+                    Celular = table.Column<string>(type: "nvarchar(1)", nullable: false),
                     Cargo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DataAdmissao = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CPF = table.Column<string>(type: "nvarchar(1)", nullable: false)

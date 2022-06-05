@@ -12,7 +12,7 @@ namespace crud_biblioteca.Models
 
         public string? Email { get; set; }
 
-        public int Celular { get; set; }
+        public char Celular { get; set; }
 
         public char Telefone { get; set; }
 
