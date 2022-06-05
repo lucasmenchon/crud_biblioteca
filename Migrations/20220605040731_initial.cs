@@ -17,8 +17,8 @@ namespace crud_biblioteca.Migrations
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Celular = table.Column<int>(type: "int", nullable: false),
-                    Telefone = table.Column<int>(type: "int", nullable: false),
-                    Cpf = table.Column<int>(type: "int", nullable: false)
+                    Telefone = table.Column<string>(type: "nvarchar(1)", nullable: false),
+                    CPF = table.Column<string>(type: "nvarchar(1)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -32,13 +32,13 @@ namespace crud_biblioteca.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Usuario = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Senha = table.Column<int>(type: "int", nullable: false),
+                    Senha = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Celular = table.Column<int>(type: "int", nullable: false),
                     Cargo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DataAdmissao = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Cpf = table.Column<int>(type: "int", nullable: false)
+                    CPF = table.Column<string>(type: "nvarchar(1)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -78,7 +78,7 @@ namespace crud_biblioteca.Migrations
                     DataReserva = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DataEntrega = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     NomeCliente = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CodigoLivro = table.Column<int>(type: "int", nullable: false)
+                    CodigoLivro = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

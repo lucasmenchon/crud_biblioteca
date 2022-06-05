@@ -1,23 +1,17 @@
 ﻿@model IEnumerable<crud_biblioteca.Models.Funcionario>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Funcionários";
 }
 
-<h1>Index</h1>
+<h1>Funcionários</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+<a asp-action="Create" class="btn btn-sm btn-secondary">Cadastro</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Usuario)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Senha)
-            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
@@ -33,9 +27,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.DataAdmissao)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cpf)
-            </th>
             <th></th>
         </tr>
     </thead>
@@ -43,12 +34,6 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Usuario)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Senha)
-                </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Nome)
                 </td>
@@ -63,9 +48,6 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.DataAdmissao)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Cpf)
                 </td>
                 <td>
                     <div class="row">

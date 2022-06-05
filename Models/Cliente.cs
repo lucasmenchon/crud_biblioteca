@@ -14,9 +14,9 @@ namespace crud_biblioteca.Models
 
         public int Celular { get; set; }
 
-        public int Telefone { get; set; }
+        public char Telefone { get; set; }
 
-        public int Cpf { get; set; }
+        public char CPF { get; set; }
 
     }
 }

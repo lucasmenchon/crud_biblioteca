@@ -1,4 +1,6 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+
 namespace crud_biblioteca.Models
 {
     public class Funcionario
@@ -8,7 +10,7 @@ namespace crud_biblioteca.Models
 
         public string? Usuario { get; set; }
 
-        public int Senha { get; set; }
+        public string? Senha { get; set; }
 
         public string? Nome { get; set; }
 
@@ -18,9 +20,14 @@ namespace crud_biblioteca.Models
 
         public string? Cargo { get; set; }
 
+        [Display(Name = "Data de Admissão")]
+        [DataType(DataType.Date)]
         public string? DataAdmissao { get; set; }
 
-        public int Cpf { get; set; }
+        //[MaxLength,MinLength(11, ErrorMessage = "O CPF precisa de 11 números!")]
+        [Required(ErrorMessage = "Precisa cadastrar um CPF!")]
+        public char CPF { get; set;}
+
 
     }
 }

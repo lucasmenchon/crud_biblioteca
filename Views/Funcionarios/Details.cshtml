@@ -1,10 +1,10 @@
 ﻿@model crud_biblioteca.Models.Funcionario
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes";
 }
 
-<h1>Details</h1>
+<h1>Detalhes</h1>
 
 <div>
     <h4>Funcionario</h4>
@@ -53,14 +53,14 @@
             @Html.DisplayFor(model => model.DataAdmissao)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cpf)
+            @Html.DisplayNameFor(model => model.CPF)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cpf)
+            @Html.DisplayFor(model => model.CPF)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-sm btn-outline-primary">Editar</a> |
+    <a asp-action="Index" class="btn btn-sm btn-outline-secondary">Voltar a Lista</a>
 </div>

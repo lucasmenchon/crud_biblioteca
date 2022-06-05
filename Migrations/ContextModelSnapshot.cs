@@ -29,10 +29,11 @@ namespace crud_biblioteca.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("Celular")
-                        .HasColumnType("int");
+                    b.Property<string>("CPF")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
 
-                    b.Property<int>("Cpf")
+                    b.Property<int>("Celular")
                         .HasColumnType("int");
 
                     b.Property<string>("Email")
@@ -41,8 +42,9 @@ namespace crud_biblioteca.Migrations
                     b.Property<string>("Nome")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Telefone")
-                        .HasColumnType("int");
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
 
                     b.HasKey("Id");
 
@@ -57,13 +59,14 @@ namespace crud_biblioteca.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<string>("CPF")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
                     b.Property<string>("Cargo")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Celular")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Cpf")
                         .HasColumnType("int");
 
                     b.Property<string>("DataAdmissao")
@@ -75,8 +78,8 @@ namespace crud_biblioteca.Migrations
                     b.Property<string>("Nome")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Senha")
-                        .HasColumnType("int");
+                    b.Property<string>("Senha")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Usuario")
                         .HasColumnType("nvarchar(max)");
@@ -143,8 +146,8 @@ namespace crud_biblioteca.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("CodigoLivro")
-                        .HasColumnType("int");
+                    b.Property<string>("CodigoLivro")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DataEntrega")
                         .HasColumnType("nvarchar(max)");
