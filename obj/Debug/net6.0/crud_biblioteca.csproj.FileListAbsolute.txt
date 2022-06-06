@@ -273,3 +273,4 @@ D:\Programing\.NET\crud_biblioteca\bin\Debug\net6.0\Microsoft.AspNetCore.Identit
 D:\Programing\.NET\crud_biblioteca\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 D:\Programing\.NET\crud_biblioteca\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 D:\Programing\.NET\crud_biblioteca\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Programing\.NET\crud_biblioteca\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout-Logout.cshtml.rz.scp.css
