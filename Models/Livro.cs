@@ -13,11 +13,9 @@ namespace crud_biblioteca.Models
 
         [Display(Name = "Código")]
         public string? Codigo { get; set; }
-
-     
-        public int Volume { get; set; }
-
-    
+                
+        public string? Volume { get; set; }
+            
         public string? Idioma { get; set; }
 
         [Display(Name = "Gênero")]
@@ -39,6 +37,7 @@ namespace crud_biblioteca.Models
         public string? Editora { get; set; }
 
         [Display(Name = "Descrição")]
+        [MaxLength(2)]
         public string? Descricao { get; set; }
 
         //[Range(1, 100, ErrorMessage = "Limite de cadastro até 100.")]

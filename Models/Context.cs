@@ -11,13 +11,13 @@ namespace crud_biblioteca.Models
             
         }
 
-        public DbSet<Livro> Livros { get; set; }
+        public DbSet<Livro>? Livros { get; set; }
 
-        public DbSet<Reserva> Reservas { get; set; }
+        public DbSet<Reserva>? Reservas { get; set; }
 
-        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Cliente>? Clientes { get; set; }
 
-        public DbSet<Funcionario> Funcionarios { get; set; }
+        public DbSet<Funcionario>? Funcionarios { get; set; }
 
     }
 }

@@ -55,7 +55,7 @@ namespace crud_biblioteca.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Usuario,Senha,Nome,Email,Celular,Cargo,DataAdmissao,Cpf")] Funcionario funcionario)
+        public async Task<IActionResult> Create([Bind("Id,Usuario,Senha,Nome,Email,Celular,Cargo,DataAdmissao,CPF")] Funcionario funcionario)
         {
             if (ModelState.IsValid)
             {
@@ -87,7 +87,7 @@ namespace crud_biblioteca.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Usuario,Senha,Nome,Email,Celular,Cargo,DataAdmissao,Cpf")] Funcionario funcionario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Usuario,Senha,Nome,Email,Celular,Cargo,DataAdmissao,CPF")] Funcionario funcionario)
         {
             if (id != funcionario.Id)
             {
