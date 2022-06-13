@@ -39,10 +39,10 @@ namespace crud_biblioteca.Models
         public string? Editora { get; set; }
 
         [Display(Name = "Descrição")]
-        [MaxLength(255)]
+        [MaxLength(255, ErrorMessage = "Limite para caractéres na descrição do Livro é de 255.")]
         public string? Descricao { get; set; }
 
-        //[Range(1, 100, ErrorMessage = "Limite de cadastro até 100.")]
+        [Required( ErrorMessage = "Quantos livros deseja cadastrar?"), Range(1, 10000, ErrorMessage = "Minimo de cadastro 1, máximo 10.000")]
         public int Quantidade { get; set; }
 
     }
