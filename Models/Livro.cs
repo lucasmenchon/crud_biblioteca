@@ -23,6 +23,7 @@ namespace crud_biblioteca.Models
 
         [Display(Name = "Data da Publicação")]
         [DataType(DataType.Date)]
+        [MaxLength(10, ErrorMessage = "Máximo de caracteres para data, favor colocar corretamente.")]        
         public string? DataPublicacao { get; set; }
 
         [Display(Name = "Edição")]
@@ -30,6 +31,7 @@ namespace crud_biblioteca.Models
 
         [Display(Name = "Data de Registro")]
         [DataType(DataType.Date)]
+        [MaxLength(10, ErrorMessage = "Máximo de caracteres para data, favor colocar corretamente.")]
         public string? DataRegistro { get; set; }
 
         public string? Autor { get; set; }
@@ -37,7 +39,7 @@ namespace crud_biblioteca.Models
         public string? Editora { get; set; }
 
         [Display(Name = "Descrição")]
-        [MaxLength(2)]
+        [MaxLength(255)]
         public string? Descricao { get; set; }
 
         //[Range(1, 100, ErrorMessage = "Limite de cadastro até 100.")]
