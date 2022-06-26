@@ -8,117 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = crud_biblioteca
 build_property.RootNamespace = crud_biblioteca
-build_property.ProjectDir = /var/www/crud_biblioteca/
+build_property.ProjectDir = D:\Programing\.NET\crud_biblioteca\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /var/www/crud_biblioteca
+build_property.MSBuildProjectDirectory = D:\Programing\.NET\crud_biblioteca
 build_property._RazorSourceGeneratorDebug = 
 
-[/var/www/crud_biblioteca/Views/Clientes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvQ3JlYXRlLmNzaHRtbA==
+[D:/Programing/.NET/crud_biblioteca/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Clientes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvRGVsZXRlLmNzaHRtbA==
+[D:/Programing/.NET/crud_biblioteca/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Clientes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvRGV0YWlscy5jc2h0bWw=
+[D:/Programing/.NET/crud_biblioteca/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Clientes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvRWRpdC5jc2h0bWw=
+[D:/Programing/.NET/crud_biblioteca/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Clientes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvSW5kZXguY3NodG1s
+[D:/Programing/.NET/crud_biblioteca/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Funcionarios/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRnVuY2lvbmFyaW9zL0NyZWF0ZS5jc2h0bWw=
+[D:/Programing/.NET/crud_biblioteca/Views/Funcionarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Funcionarios/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRnVuY2lvbmFyaW9zL0RlbGV0ZS5jc2h0bWw=
+[D:/Programing/.NET/crud_biblioteca/Views/Funcionarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Funcionarios/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRnVuY2lvbmFyaW9zL0RldGFpbHMuY3NodG1s
+[D:/Programing/.NET/crud_biblioteca/Views/Funcionarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Funcionarios/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRnVuY2lvbmFyaW9zL0VkaXQuY3NodG1s
+[D:/Programing/.NET/crud_biblioteca/Views/Funcionarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Funcionarios/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRnVuY2lvbmFyaW9zL0luZGV4LmNzaHRtbA==
+[D:/Programing/.NET/crud_biblioteca/Views/Funcionarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[D:/Programing/.NET/crud_biblioteca/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[D:/Programing/.NET/crud_biblioteca/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Livros/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm9zL0NyZWF0ZS5jc2h0bWw=
+[D:/Programing/.NET/crud_biblioteca/Views/Livros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Livros/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm9zL0RlbGV0ZS5jc2h0bWw=
+[D:/Programing/.NET/crud_biblioteca/Views/Livros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Livros/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm9zL0RldGFpbHMuY3NodG1s
+[D:/Programing/.NET/crud_biblioteca/Views/Livros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Livros/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm9zL0VkaXQuY3NodG1s
+[D:/Programing/.NET/crud_biblioteca/Views/Livros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Livros/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGl2cm9zL0luZGV4LmNzaHRtbA==
+[D:/Programing/.NET/crud_biblioteca/Views/Livros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Reservas/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvQ3JlYXRlLmNzaHRtbA==
+[D:/Programing/.NET/crud_biblioteca/Views/Reservas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Reservas/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvRGVsZXRlLmNzaHRtbA==
+[D:/Programing/.NET/crud_biblioteca/Views/Reservas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Reservas/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvRGV0YWlscy5jc2h0bWw=
+[D:/Programing/.NET/crud_biblioteca/Views/Reservas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Reservas/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvRWRpdC5jc2h0bWw=
+[D:/Programing/.NET/crud_biblioteca/Views/Reservas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Reservas/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXMvSW5kZXguY3NodG1s
+[D:/Programing/.NET/crud_biblioteca/Views/Reservas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[D:/Programing/.NET/crud_biblioteca/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[D:/Programing/.NET/crud_biblioteca/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[D:/Programing/.NET/crud_biblioteca/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[D:/Programing/.NET/crud_biblioteca/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/var/www/crud_biblioteca/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-rmvlllts5f
+[D:/Programing/.NET/crud_biblioteca/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1lu0oyae4k

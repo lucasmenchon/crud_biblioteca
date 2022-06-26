@@ -8,7 +8,7 @@ namespace crud_biblioteca.Models
         public Context(DbContextOptions<Context> options) : base(options)
 
         {
-            
+            Database.EnsureCreated();
         }
 
         public DbSet<Livro>? Livros { get; set; }
