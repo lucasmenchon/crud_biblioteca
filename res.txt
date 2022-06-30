@@ -1,0 +1,4 @@
+Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;
+
+id> lucasmenchon
+pw> $pW070798

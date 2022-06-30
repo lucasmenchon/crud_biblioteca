@@ -1,12 +1,3 @@
 {
-  "dependencies": {
-    "mssql1": {
-      "type": "mssql",
-      "connectionId": "ConnectionStrings:crud_bibliotecaContextConnection"
-    },
-    "mssql2": {
-      "type": "mssql",
-      "connectionId": "ConnectionStrings:AppDbContextConnection"
-    }
-  }
+  "dependencies": {}
 }

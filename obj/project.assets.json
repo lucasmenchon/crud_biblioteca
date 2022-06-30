@@ -10042,11 +10042,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programing\\.NET\\crud_biblioteca\\crud_biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas\\source\\repos\\crud_biblioteca\\crud_biblioteca.csproj",
       "projectName": "crud_biblioteca",
-      "projectPath": "D:\\Programing\\.NET\\crud_biblioteca\\crud_biblioteca.csproj",
+      "projectPath": "C:\\Users\\Lucas\\source\\repos\\crud_biblioteca\\crud_biblioteca.csproj",
       "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "D:\\Programing\\.NET\\crud_biblioteca\\obj\\",
+      "outputPath": "C:\\Users\\Lucas\\source\\repos\\crud_biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

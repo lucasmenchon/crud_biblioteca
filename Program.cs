@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<Context>(options => options.UseSqlServer(@"Server=ludevelop.database.windows.net;Database=crud_biblioteca;User Id=lucasmenchon;Password=$pW070798;"));
+builder.Services.AddDbContext<Context>(options => options.UseSqlServer(@"Server=ludevelopment.database.windows.net;Database=crud_biblioteca;User Id=lucasmenchon;Password=$Pw124578;"));
 //local db> Data Source=(LocalDb)\MSSQLLocalDb;Initial Catalog=crud_biblioteca;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
 
 var app = builder.Build();
